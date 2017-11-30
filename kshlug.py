@@ -4,7 +4,7 @@ from telegram import ReplyKeyboardMarkup
 from telegram.ext import Updater, CommandHandler
 from telegram.error import BadRequest
 import logging
-updater = Updater('480250178:AAGmQMpRLJJ7MsHKnpmMFS0ApRLSXzThDoQ')
+updater = Updater('your_TOKEN')
 logging.basicConfig(filename='mylogs.txt', format='%(asctime)s - %(levelname)s - %(message)s',level=logging.INFO)
 
 #Robot Function
